@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """RandOm Convolutional KErnel Transform (ROCKET)."""
 
-__author__ = "Matthew Middlehurst"
+__author__ = ["Matthew Middlehurst", "Viktor Dremov"]
 __all__ = ["ROCKETClassifier"]
 
 import numpy as np
@@ -49,12 +49,12 @@ class ROCKETClassifier(BaseClassifier):
     tsml/classifiers/shapelet_based/ROCKETClassifier.java
     """
 
-        "contractable": False,
     _tags = {
         "univariate-only": False,
         "capability:unequal_length": False,
         "handles-missing-data": False,
         "capability:train_estimate": False,
+        "capability:contractable": False,
     }
 
     def __init__(
