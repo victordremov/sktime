@@ -130,6 +130,12 @@ ESTIMATOR_TAG_REGISTER = [
         "bool",
         "can classifier handle unequal length data?",
     ),
+    (
+        "capability:train_estimate",
+        "classifier",
+        "bool",
+        "?",  # FIXME fill in tag meaning in simple English
+    ),
     # (
     #     "handles-panel",
     #     "annotator",
