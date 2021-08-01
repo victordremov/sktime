@@ -50,11 +50,11 @@ class ROCKETClassifier(BaseClassifier):
     """
 
         "unequal_length": False,
-        "missing_values": False,
         "train_estimate": False,
         "contractable": False,
     _tags = {
         "univariate-only": False,
+        "handles-missing-data": False,
     }
 
     def __init__(

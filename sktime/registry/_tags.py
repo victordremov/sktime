@@ -66,7 +66,7 @@ ESTIMATOR_TAG_REGISTER = [
     ),
     (
         "handles-missing-data",
-        "estimator",
+        ["estimator", "classifier"],
         "bool",
         "can the estimator handle missing data (NA, np.nan) in inputs?",
     ),
