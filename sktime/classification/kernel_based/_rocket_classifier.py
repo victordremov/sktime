@@ -49,11 +49,11 @@ class ROCKETClassifier(BaseClassifier):
     tsml/classifiers/shapelet_based/ROCKETClassifier.java
     """
 
-        "unequal_length": False,
         "train_estimate": False,
         "contractable": False,
     _tags = {
         "univariate-only": False,
+        "capability:unequal_length": False,
         "handles-missing-data": False,
     }
 

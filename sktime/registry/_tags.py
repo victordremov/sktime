@@ -124,6 +124,12 @@ ESTIMATOR_TAG_REGISTER = [
         ("list", ["pd.Series", "pd.DataFrame", "np.array"]),
         "which machine type(s) is the internal _fit/_predict able to deal with?",
     ),
+    (
+        "capability:unequal_length",
+        "classifier",
+        "bool",
+        "can classifier handle unequal length data?",
+    ),
     # (
     #     "handles-panel",
     #     "annotator",
