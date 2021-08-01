@@ -48,7 +48,7 @@ import pandas as pd
 ESTIMATOR_TAG_REGISTER = [
     (
         "univariate-only",  # todo: rename to "scitype:handles_exogeneous"
-        "forecaster",
+        ["forecaster", "classifier"],
         "bool",
         "does forecaster use exogeneous data (X)?",
     ),
